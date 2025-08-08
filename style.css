@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+}
+
+.title {
+    color: black;
+    text-align: center;
+}
+.bloque {
+    background-color: rgb(53, 48, 48); /* gris claro */
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.bloque a {
+    color: white; /* color del link */
+    text-decoration: none; /* quita el subrayado */
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.contenedor {
+    position: relative; /* Necesario para que el h1 se posicione dentro */
+    display: inline-block;
+}
+.contenedor img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.titulo-sobre-imagen {
+    position: absolute; /* Posiciona el texto encima */
+    color: black; /* Color del texto */
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Para mejorar la visibilidad del texto */
+}
