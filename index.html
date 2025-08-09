@@ -10,20 +10,20 @@
             href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         />
         <title>IronSkydive</title>
-        <nav class="bloque">
+        <nav class="block">
             <a href="">Day Structure</a>
             <a href="">Team</a>
             <a href="">Schedule</a>
         </nav>
-        <div class="contenedor">
-            <h1 class="titulo-sobre-imagen">
+        <div>
+            <h1>
                 IronSkydive
                 <!--<img
                    src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png
     "
                     alt="IronSkydive Logo"
                 />-->
-                <img src="skydriver.jpg" alt="fondo" class="imagen" />
+                <img src="skydriver.jpg" alt="fondo" />
             </h1>
         </div>
     </head>
@@ -31,7 +31,7 @@
         <h2>Let the trip begin</h2>
         <aside><em>"The best experencie of our lives"</em></aside>
         <p>Ariel Quiñones & Gonzalo Manrique, Ironhack Founders</p>
-        <section>
+        <section class="option title button">
             <article>
                 <h3>Hello!</h3>
                 <p>
@@ -57,9 +57,9 @@
             </article>
         </section>
         <section>
-            <h3>How do we structure the day?</h3>
-            <div>
-                <article>
+            <h3 class="title">How do we structure the day?</h3>
+            <div class="galery">
+                <article class="galery-card">
                     <img
                         src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png "
                         alt="training"
@@ -70,7 +70,7 @@
                         without any kind of problem.
                     </p>
                 </article>
-                <article>
+                <article class="galery-card">
                     <img
                         src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png "
                         alt="get ready"
@@ -81,7 +81,7 @@
                         parachute. All sizes available
                     </p>
                 </article>
-                <article>
+                <article class="galery-card">
                     <img
                         src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png"
                         alt="fly"
@@ -93,7 +93,7 @@
                         hangar. Let's fly!
                     </p>
                 </article>
-                <article>
+                <article class="galery-card">
                     <img
                         src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png"
                         alt="jump"
@@ -108,38 +108,39 @@
         </section>
     </body>
     <footer>
-        <section>
+        <section class="block-team title-footer">
             <h3>Team</h3>
             <p>
                 Our team collectively has 75 years of experience. Odds are,when
                 you jump out of the plane with these professionals, you won't go
                 splat
             </p>
-            <div>
-                <article>
-                    <h4><b>Harold Rothstein</b></h4>
-                </article>
-                <img
-                    src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b8009089
- 4237a262dfdfbad.jpg"
-                    alt="Harold Rothstein"
-                />
-                <article>
-                    <h4><b>Susan Phillips</b></h4>
-                </article>
-                <img
-                    src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7
- e70a4e59b941093.jpg "
-                    alt="Susan Phillips"
-                />
-                <article>
-                    <h4><b>Taylor Roberts</b></h4>
-                </article>
-                <img
-                    src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b061
- 1da55093b7dc421.jpg "
-                    alt="Taylor Roberts"
-                />
+            <hr />
+            <div class="image-content">
+                <figure>
+                    <figcaption>Harold Rothstein</figcaption>
+                    <img
+                        src="skydive1.jpg"
+                        alt="Harold Rothstein"
+                        class="image-footer"
+                    />
+                </figure>
+                <figure>
+                    <figcaption>Susan Phillips</figcaption>
+                    <img
+                        src="skydive3.jpg "
+                        alt="Susan Phillips"
+                        class="image-footer"
+                    />
+                </figure>
+                <figure>
+                    <figcaption>Taylor Roberts</figcaption>
+                    <img
+                        src="skydive2.jpg "
+                        alt="Taylor Roberts"
+                        class="image-footer"
+                    />
+                </figure>
             </div>
         </section>
         <section>
